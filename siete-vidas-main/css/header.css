@@ -126,7 +126,7 @@ li a:hover:not(.active) {
 
     .div-lista {
         display: grid;
-        grid-template-columns: repeat(4, minmax(2vw,1fr));
+        grid-template-columns: repeat(5, minmax(2vw,1fr));
     }
 
     li a {
@@ -161,7 +161,7 @@ li a:hover:not(.active) {
 
     .div-lista {
         display: grid;
-        grid-template-columns: repeat(2, minmax(2vw,1fr));
+        grid-template-columns: repeat(3, minmax(2vw,1fr));
     }
 
     li a {
@@ -193,7 +193,7 @@ li a:hover:not(.active) {
     }
 
     .deslizableMenu .menu>ul{
-        height: 54vw;
+        height: 62vw;
     }
 
     .deslizableMenu{
