@@ -98,11 +98,11 @@ body::before{
 
 @media (max-width: 480px) {
   .space-top {
-      height: 53vw;
+      height: 58vw;
   }
 
   .space-top>.gato-curioso {
-      top: 39.9vw;
+      top: 45vw;
       height: 16vw;
   }
 
