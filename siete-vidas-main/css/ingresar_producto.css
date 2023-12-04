@@ -5,7 +5,7 @@
 
 .container-form{
     background: radial-gradient(circle, #ffcccc, #ff9999);
-    height: 150vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -32,38 +32,56 @@
     margin-left: 5vw;
   } 
 
-
-.form{
-   
-    background-color: rgba(78, 69, 69, 0.8);
-    width: 40vw;
-    height: 59vh;
-    border-radius: 3vw;
+  .formLogin{
+    margin-top: 10%;
+    background-color: rgb(253, 217, 183);
+    border: 2px solid rgb(56, 22, 22);
+    width: 30vw;
+    height: 40vh;
+    border-radius: 1vw;
     display: flex;
     flex-direction: column; 
     align-items:center;
-    margin-top: 24vw;
-    margin-bottom:0.1vh;
     justify-content:flex-start;
     padding: 0.5vw;
     
 }
 
-.forml{
-   
-    background-color: rgba(78, 69, 69, 0.8);
-    width: 30vw;
-    height:30vh;
-    border-radius: 3vw;
-    display: flex;
-    flex-direction:column; 
-    align-items:center;
-    margin-top:15vh;
-    margin-left: 5vw;
-    justify-content:center;
-    padding: 1vw;
-    
+.labelLogin{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    color: rgb(46, 20, 20);
+    font-size: 1.3vw;
 }
+
+.inputLogin{
+    width: 20vw;
+    height: 2vw;
+    color: rgb(46, 20, 20);
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(36, 13, 13);
+    border-radius: 3px;
+}
+
+.btnLogin {
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    padding: 0.2vw 0.3vh;
+    height: 4vw;
+    width: 12vw;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family:"moolireg";
+    background-color: #f38787;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    border: 1px solid rgb(36, 13, 13);
+    transition: background-color 0.3s ease;
+  }
+
 .container-forml{
     background: radial-gradient(circle, #ffcccc, #ff9999);
     height: 150vh;
@@ -77,22 +95,75 @@
     margin-bottom:0vw;/*Espaciado entre grupos de etiqueta y campo de entrada */
 
 } 
-.forme{
+
+.form{
    
-    background-color: rgba(153, 68, 68, 0.8);
-    width: 40vw;
-    height: 35vh;
-    border-radius: 3vw;
+    background-color: rgb(253, 217, 183);
+    border: 2px solid rgb(56, 22, 22);
+    width: 30vw;
+    height: 50vh;
+    border-radius: 1vw;
     display: flex;
     flex-direction: column; 
     align-items:center;
-    margin-top: 20vw;
+    margin-top: 24vw;
     margin-bottom:0.1vh;
-  
+    justify-content:flex-start;
     padding: 0.5vw;
     
 }
 
+.forme{
+   
+    background-color: rgb(253, 217, 183);
+    border: 2px solid rgb(56, 22, 22);
+    width: 30vw;
+    height: 60vh;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column; 
+    align-items:center;
+    margin-top: 24vw;
+    margin-bottom:0.1vh;
+    justify-content:flex-start;
+    padding: 0.5vw;
+    
+}
+
+.label {
+    display:block;
+    padding: 10px;
+    padding-top: 15px;
+    color: rgb(46, 20, 20);
+    font-size: 1.3vw;
+}
+
+.input{
+    display: block;
+    width: 20vw;
+    padding: 10px;
+    margin: auto;
+    color: rgb(46, 20, 20);
+    font-size: 15px;
+    border: 1px solid rgb(36, 13, 13);
+    border-radius: 3px;
+}
+  
+.div-listaprod{
+    position:absolute;
+    display: inline;
+    width: 30vw;
+    background-color: rgb(253, 217, 183);
+    border: 2px solid rgb(56, 22, 22);
+    border-radius: 10px;
+    text-decoration: none;
+    padding:0.2vw; 
+    color:rgba(238, 15, 222, 0.92);
+    margin-top: 36vh;
+    margin-left: 34.5vw;
+    border-radius: 1vw;
+ 
+}
 
 .entrada{
     margin-bottom: 1vh;
@@ -107,34 +178,6 @@
 }
 
 
-.label{
-    font-size: 2vw;
-    font-family: "moolireg";
-    color: aliceblue;
-    display: inline-block; /*Alinea las etiquetas en línea*/
-    
-  
-  }
-  
-   .div-listaprod{
-    position:absolute;
-    display:inline;
-    width:29vw;
-    margin-left:39vw;
-    background-color:  rgb(245, 200, 211);
-    border: 1px solid rgb(188, 101, 101);
-    border-radius: 10px;
-    text-decoration: none;
-    justify-content:center;
-    padding:0.2vw; 
-    color:rgba(238, 15, 222, 0.92);
-    margin-top: 36vh;
-    border-radius: 1vw;
-    background-color:rgba(207, 148, 202, 0.32);
- 
-}
-
-
  .a1:hover {
   background-color: rgb(250, 250, 250);
   box-shadow: rgb(199, 98, 98) .1vw .1vw .1vw ;
@@ -144,17 +187,21 @@
 
 
 button {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     padding: 0.2vw 0.3vh;
-    height:10vh;
+    height:3vw;
+    width: 10vw;
     font-size: 2vw;
- 
+    text-align: center;
     font-family:"moolireg";
-    background-color: #ff9999;
+    background-color: #f38787;
     color: #ffffff;
     border: none;
-    border-radius: 0.5vw;
+    border-radius: 1vw;
     cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(36, 13, 13);
+    
     transition: background-color 0.3s ease;
   }
 
@@ -289,5 +336,6 @@ button {
         
     } 
 }
+
 
 
